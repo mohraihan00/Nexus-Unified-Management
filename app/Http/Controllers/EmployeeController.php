@@ -25,6 +25,7 @@ class EmployeeController extends Controller
      */
     public function create(): View
     {
+        // Create a new employee instance to pass to the view (optional)
         return view('employees.create');
     }
 
